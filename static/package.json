@@ -1,0 +1,26 @@
+{
+  "name": "ulampinoy-website",
+  "version": "1.0.0",
+  "description": "Official Website of Ulampinoy",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^3.4.2",
+    "support-for": "^1.0.3",
+    "susy": "^2.2.12"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "install": "^0.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixeleden/ulampinoy.git"
+  },
+  "author": "Allan Reyes",
+  "license": "ISC"
+}

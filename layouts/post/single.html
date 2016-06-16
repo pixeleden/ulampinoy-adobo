@@ -1,0 +1,42 @@
+<!-- Layout for Post -->
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+{{ partial "head.html" . }}
+
+<body class="post">
+    {{ partial "nav.html" . }}
+    <article>
+    <header class="article-header">
+                <div class="article-cover">
+                    <div class="article-image">
+                        <img src="{{ .Params.photo }}" alt="">
+                    </div>
+                </div>
+                <div class="article-headline">
+                    <div class="inner-wrapper">
+                        <h1>{{ .Title }}</h1>
+                        <h2 class="article-headline-blurb">{{ .Params.excerpt }}</h2>
+                        <div class="meta">
+                            {{ .Date.Format "2 January 2006" }}
+                        </div>
+                    </div>
+                </div>
+            </header>
+        <div class="inner">
+            
+            <div class="article-body">
+                <div class="inner-wrapper">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+    </article>
+    
+
+    {{ partial "adsense.html" . }}
+    {{ partial "pager.html" . }}
+    {{ partial "footer.html" . }}
+    
+</body>
+
+</html>

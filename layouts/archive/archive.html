@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+{{ partial "head.html" . }}
+
+<body class="archive">
+    {{ partial "nav.html" . }}
+    <section class="hero">
+        <div class="inner">
+            <div class="hero-title">
+                <h1>{{ .Title }}</h1>
+                <p class="sub-title">{{ .Params.excerpt }}</p>
+            </div>
+        </div>
+    </section>
+    <section class="featured">
+        <ul>
+            {{ range (where .Site.Pages "Type" "archive") }}
+            <li class="featured-item">
+                <div class="featured-item-image">
+                    <a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt=""></a>
+                </div>
+                <div class="featured-item-description">
+                    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                    <div class="excerpt">
+                        <p>{{ .Params.excerpt }}</p>
+                    </div>
+                </div>
+            </li>
+            {{ end }}
+        </ul>
+    </section>
+    {{ partial "footer.html" . }}
+</body>
+
+</html>

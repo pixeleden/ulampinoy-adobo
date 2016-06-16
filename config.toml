@@ -1,0 +1,14 @@
+baseurl = "http://ulampinoy.com"
+languageCode = "en-us"
+title = "Ulampinoy"
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	series = "series"
+	archive = "archives"
+	post = "posts"
+	video = "videos"
+
+[params.hero]
+	title = "Lutong bahay na punô ng pagmamahal, kulay at sarap"

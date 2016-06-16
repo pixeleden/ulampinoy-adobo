@@ -1,0 +1,20 @@
+<section class="featured">
+    <div class="container">
+        <h2 class="section-headline"><span>Mula sa Archive</span></h2>
+        <ul>
+            {{ range first 8 (where .Data.Pages "Type" "archive") }}
+            <li class="featured-item">
+                <div class="featured-item-image">
+                    <a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt=""></a>
+                </div>
+                <div class="featured-item-description">
+                    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                    <div class="excerpt">
+                        <p>{{ .Params.excerpt }}</p>
+                    </div>
+                </div>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</section>
