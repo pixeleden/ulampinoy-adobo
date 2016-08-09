@@ -1,6 +1,6 @@
 {
   "name": "ulampinoy-website",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "Official Website of Ulampinoy",
   "main": "index.js",
   "dependencies": {
@@ -22,5 +22,9 @@
     "url": "git+https://github.com/pixeleden/ulampinoy.git"
   },
   "author": "Allan Reyes",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pixeleden/ulampinoy/issues"
+  },
+  "homepage": "https://github.com/pixeleden/ulampinoy#readme"
 }
