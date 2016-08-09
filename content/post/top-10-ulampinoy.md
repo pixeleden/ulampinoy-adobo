@@ -22,6 +22,8 @@ Katulad ng adobo ang pancit ay isang kategorya sa ganang sarili. Pero mukhang pa
 ### Tinola
 Siyempre kapag tinola, tinolang manok. Espesyal lalo na kapag native ang manok. Native chicken ang tawag sa manok na hindi 45 days. Sa halos lahat ng karenderia, laging may tinola sa mga kaserola (free sabaw, please!). Masarap ang tinola kapag may dahon ng sili at papayang hilaw. Minsan naman, dahon ng malunggay at zayote. Pero dapat laging may luya.
 
+{{< figure src="/assets/photos/tinola-chicken-bowl.jpg" title="Chicken Tinola" >}}
+
 ### Nilaga
 Puedeng baboy o baka may sabaw pero walang asim. Buto-buto o ribs ng baboy ang bestseller. Kadalasan ang kasamang gulay ay pechay o repolyo, bitsuelas, patatas o kamote.
 
