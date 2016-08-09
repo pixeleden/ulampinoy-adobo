@@ -13,6 +13,8 @@ Lahat malamang ay sasangayon na adobo ang #1 sa mga putaheng Pinoy, at puede sig
 ### Adobong Baboy
 Ito sana ang #1 kaya lang mas mahal ang baboy kaysa manok! Pero ang faborito namin at ang adobong manok at baboy
 
+{{< figure src="/assets/photos/spare-ribs-adobo.jpg" title="Pork Adobo" >}}
+
 ### Sinigang na Baboy
 Espesyal ang sinigang lalo na kung baboy, kaya ito ang may mataas na rating sa lahat ng sinigang. Parang nilaga kaya lang inasiman ng sinigang mix pero sa mga matatanda at mga purista ng sinigang ginagamitan ito ng sampaloc. Kakaiba rin ang karaker ng sinigang kapag santol ang pinangasim. Kumpleto ang sinigang kapag may gabi, kangkong, labanos, okra at kamatis.
 
