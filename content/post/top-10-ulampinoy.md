@@ -5,8 +5,6 @@ title = "Top 10 Ulampinoy"
 photo = "/assets/photos/pancit-bihon.jpg"
 +++
 
-# Top 10 Ulam Pinoy
-
 ### Adobong Manok
 Lahat malamang ay sasangayon na adobo ang #1 sa mga putaheng Pinoy, at puede sigurong ipalagay na adobong manok ang #1 sa lahat ng abodo dahil mas madaling makabili ng manok, kasi naman, mas mura ang manok kaysa baboy. 
 
