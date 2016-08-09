@@ -41,3 +41,5 @@ Gulay-Baguio gaya ng cauliflower, broccoli, carrots, zayote. Kung espesyal naman
 ### Lumpiang shanghai
 Bestseller ito sa handaan. Ma-trabaho ang preparasyon nito, kasi lahat ng sangkap ay kailangang gayatin ng pino. Maingat at sanay rin ang magbabalot. Sulit naman kasi, iyan ang pinakamabili, sa hapag handaan yan ang unang nauubos. 
 
+{{< figure src="/assets/photos/lumpia-shanghai.jpg" title="Lumpiang Shanghai" >}}
+
