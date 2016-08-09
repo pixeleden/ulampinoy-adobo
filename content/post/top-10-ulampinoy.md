@@ -2,10 +2,10 @@
 excerpt = "Top 10 Ulampinoy"
 date = "2016-05-05T20:59:00+01:00"
 title = "Top 10 Ulampinoy"
-photo = "/assets/photos/pancit-bihon.jpg"
+photo = "/assets/photos/adobo-chicken-pot.jpg"
 +++
 
-Tiyak na bawat isa ay may kani-kanilang listahan ng mga paboritong ulam Pinoy. Narito ang ang aming top 10:
+Tiyak na ang bawat isa ay may kani-kaniyang listahan ng mga paboritong ulam Pinoy. Narito ang ang aming top 10:
 
 ### Adobong Manok
 Lahat malamang ay sasangayon na adobo ang #1 sa mga putaheng Pinoy, at puede sigurong ipalagay na adobong manok ang #1 sa lahat ng abodo dahil mas madaling makabili ng manok, kasi naman, mas mura ang manok kaysa baboy. 
