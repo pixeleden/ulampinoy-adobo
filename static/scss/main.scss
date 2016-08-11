@@ -361,6 +361,10 @@
             p {
                 font-size: 1.1rem;
                 line-height: 1.8;
+                &:first-of-type {
+                    font-size: 1.4rem;
+                    line-height: 1.45;
+                }
                 &:first-of-type:first-letter {
                     float: left;
                     margin: 6px 8px 0 0;
