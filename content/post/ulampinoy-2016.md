@@ -5,7 +5,7 @@ title = "Ang Bagong Ulampinoy"
 photo = "/assets/photos/bagoong-salad.jpg"
 +++
 
-Masayang-masaya kaming ibalita sa inyo ang launch ng bagong disenyo ng Ulampinoy. Maraming improvements ang aming ginawa base sa mga feedback na tinanggap namin mula sa inyong lahat. 
+Masaya kaming ibalita sa inyo ang launch ng bagong disenyo ng Ulampinoy. Maraming improvements ang aming ginawa base sa mga feedback na tinanggap namin mula sa inyong lahat. 
 
 Ipinasya rin namin na i-publish ito sa wikang Tagalog. Nais naming i-share sa inyo ang mga recipe at iba pang bagay sa paraang mas personal na para bang panauhin namin kayo o panauhin ninyo kami sa inyong tahanan. Nakatitiyak kaming mas makulay ang ating kuwentuhan kung ito ay sa wikang Pilipino. Pagkakataon rin ito ng maraming followers ng Ulampinoy na matuto hindi lang ng mga recipe kundi pati na rin ng Tagalog. 
 
