@@ -548,14 +548,15 @@
                 border: 8px solid #101010;
                 position: relative;
                 margin-bottom: 4px;
-                height: 280px;
                 display: block;
                 overflow: hidden;
+                height: 225px;
                 @include breakpoint($break-tablet) {
                     @include gallery(6 of 12);
                 }
                 @include breakpoint($break-desktop) {
                     @include gallery(6 of 12);
+                    height: 280px;
                 }
                 .post-item-image {
                     line-height: .8;
@@ -575,11 +576,10 @@
                     }
                 }
                 .post-item-description {
-                    top: 60%;
+                    top: 50%;
                     left: 0;
                     padding: 0 30px 30px;
                     position: absolute;
-                    background-color: rgba(0, 0, 0, .7);
                     width: 100%;
                     @include breakpoint($break-tablet) {}
                     h2 {

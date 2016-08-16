@@ -13,7 +13,7 @@ Lahat malamang ay sasangayon na adobo ang #1 sa mga putaheng Pinoy, at puede sig
 ## Adobong Baboy
 Ito sana ang #1 kaya lang mas mahal ang baboy kaysa manok! Pero ang faborito namin at ang adobong manok at baboy
 
-{{< figure src="/assets/photos/spare-ribs-adobo.jpg" title="Pork Adobo" >}}
+{{< figure src="/assets/photos/spare-ribs-adobo.jpg" title="Pork Spare Ribs Adobo" >}}
 
 ## Sinigang na Baboy
 Espesyal ang sinigang lalo na kung baboy, kaya ito ang may mataas na rating sa lahat ng sinigang. Parang nilaga kaya lang inasiman ng sinigang mix pero sa mga matatanda at mga purista ng sinigang ginagamitan ito ng sampaloc. Kakaiba rin ang karaker ng sinigang kapag santol ang pinangasim. Kumpleto ang sinigang kapag may gabi, kangkong, labanos, okra at kamatis.
@@ -30,7 +30,9 @@ Siyempre kapag tinola, tinolang manok. Espesyal lalo na kapag native ang manok. 
 Puedeng baboy o baka may sabaw pero walang asim. Buto-buto o ribs ng baboy ang bestseller. Kadalasan ang kasamang gulay ay pechay o repolyo, bitsuelas, patatas o kamote.
 
 ## Giniling
-Kapag sinabing giniling, automatik na ang ibig sabihin giniling na baboy. Pero minsan tinatadtad lang pero ganun na rin yun. Tawag ng iba picadillo. Kahawig ito ng arroz cubano na may pritong saging at sunny-side up na itlog.
+Kapag sinabing giniling, automatik na ang ibig sabihin giniling na baboy. Pero minsan tinatadtad lang pero ganun na rin yun. Tawag ng iba picadillo. Kahawig ito ng arroz cubano na may pritong saging at sunny-side up na itlog.+
+
+{{< figure src="/assets/photos/giniling-wok.jpg" title="Pork Giniling" >}}
 
 ## Kare-kare
 Laman-loob ng baka gaya ng tuwalya-tuwalya, buntot at kaunting laman. Ang sarsa ay gawa sa mani o peanut butter at giniling na tinustang bigas (bersiyon ng Lola ko). Sinasahugan rin ng mga gulay gaya ng talong, sitaw, pechay at puso ng saging. At ang pinaka-importante sa lahat, ang ginisang bagoong alamang na laging nasa tabi kapag inihain ang kare-kare. Impluwensyang indiyanopro sa totoo ang mga tinitingala nating dayuhan ay napkabobo na naman kasi tawag ni si mga 
