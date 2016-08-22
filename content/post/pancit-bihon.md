@@ -1,6 +1,7 @@
 +++
 excerpt = "Masarap anumang okasyon"
 date = "2016-03-03T20:25:00+01:00"
+tag = "Klasik Ulampinoy"
 title = "Pancit Bihon"
 photo = "/assets/photos/pancit-bihon.jpg"
 +++

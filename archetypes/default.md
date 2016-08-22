@@ -1,0 +1,3 @@
++++
+photo = "/assets/photos/"
++++

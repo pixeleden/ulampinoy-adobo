@@ -1,6 +1,7 @@
 +++
 excerpt = "Top 10 Ulampinoy"
 date = "2016-05-05T20:59:00+01:00"
+tag = "Paborito Ko Ito"
 title = "Top 10 Ulampinoy"
 photo = "/assets/photos/adobo-chicken-pot.jpg"
 +++

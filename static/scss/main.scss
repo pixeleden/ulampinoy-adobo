@@ -43,11 +43,12 @@
         text-decoration: none;
         &:link,
         &:visited {
-            color: #08c;
+            color: #111;
             -webkit-transition: color .4s ease;
             -moz-transition: color .4s ease;
             -o-transition: color .4s ease;
             transition: color .4s ease;
+            font-weight: 900;
         }
         &:hover {
             color: #00A1F1;
@@ -159,16 +160,97 @@
         }
         &.blog {
             nav {
-                position: fixed;
-                background-color: #101010;
-                padding: 20px 0;
-                top: 0;
+                @include breakpoint($break-desktop) {
+                    position: fixed;
+                    background-color: #101010;
+                    padding: 20px 0;
+                    top: 0;
+                }
             }
             .hero {
                 background-image: url(/assets/hero/vinegar-spices.jpg);
                 height: 400px;
                 margin-bottom: 5px;
             }
+            .post-main {
+                position: relative;
+                &.newest {
+                    padding-top: 199px;
+
+                    @include breakpoint($break-tablet) {
+                        padding-top: 57px;
+                    }
+
+                                        @include breakpoint($break-desktop) {
+                        padding-top: 120px;
+                    }
+                }
+                .post-item {
+                    @include span(12);
+                    border: none;
+                    height: 440px;
+
+                    @include breakpoint($break-tablet) {
+                        height: 640px;
+                    }
+
+                    @include breakpoint($break-desktop) {
+                        height: 440px;
+
+                        .post-item-image {
+                            @include span(8);
+                            background: none;
+                            padding: 0 1.5%;
+                            img {
+                                height: auto;
+                            }
+                        }
+                        .post-item-description {
+                            @include span(4 last);
+                            top: 0;
+                            a {
+                                color: #111;
+                            }
+                            h2 {
+                                font-size: 2rem;
+                                line-height: 1.4;
+                                
+                            }
+                            p {
+                                color: #515151;
+                                line-height: 1.6;
+                                font-size: 1rem;
+                            }
+                        }
+                    }
+                }
+
+            }
+            .post-item-image {
+                margin-bottom: 10px;
+            }
+            .post-item-description {
+                h2 {
+                    margin-top: 10px;
+                }
+                .tag-tease {
+                                text-transform: uppercase;
+                                font-size: .72rem;
+                                font-weight: 700;
+                                letter-spacing: 1px;
+                                color: #717171;
+                            }
+            }
+            .post-panel {
+                @include span(12);
+                .post-item {
+                    @include breakpoint($break-desktop) {
+                        @include gallery(4 of 12);
+                        padding: 0 1.5%;
+                    }
+                }
+            }
+            
         }
         &.archive {
             nav {
@@ -222,7 +304,7 @@
     }
     
     article {
-        margin: 0 auto 80px;
+        margin: 217px auto 80px;
         line-height: 1.6;
         @include breakpoint($break-tablet) {
             margin-top: 0;
@@ -318,7 +400,6 @@
                     margin: 10px 120px 20px;
                 }
             }
-
             h2 {
                 font-size: 2rem;
                 font-weight: 500;
@@ -340,7 +421,6 @@
                     margin: 60px 120px 0;
                 }
             }
-            
             ul,
             ol {
                 list-style-type: disc;
@@ -426,7 +506,6 @@
                 &.logo {
                     font-weight: 900;
                     font-size: 1.8rem;
-
                     @include breakpoint($break-tablet) {
                         font-size: 1.1rem;
                     }
@@ -449,11 +528,11 @@
             }
         }
     }
-
+    
     .meta {
         font-size: .8rem;
         text-transform: uppercase;
-        color: rgba(255,255,255,.8);
+        color: rgba(255, 255, 255, .8);
         letter-spacing: 2px;
     }
     
@@ -493,13 +572,12 @@
             position: relative;
             top: 50vh;
             transform: translateY(-65%);
-
             @include breakpoint($break-tablet) {
                 top: 44vh;
             }
-             @include breakpoint($break-desktop) {
+            @include breakpoint($break-desktop) {
                 top: 45vh;
-             }
+            }
             h1 {
                 margin: 0 auto;
                 padding: 0 40px;
@@ -530,7 +608,7 @@
             letter-spacing: -2px;
             font-size: 2.7rem;
             line-height: 1;
-            color: #999;
+            color: #414141;
             text-align: left;
         }
         .post-header {
@@ -565,38 +643,34 @@
                     img {
                         transition: all 16s cubic-bezier(.2, .4, .6, .8);
                         transform: translateY(-45px);
-                        opacity: .85;
-                        &:hover {
-                            transform: scale(1.2) translateX(15px) rotate(-4deg) translateY(-15px);
-                            opacity: 1;
-                        }
                     }
                     &:hover {
                         transition: all 15s cubic-bezier(.2, .4, .6, .8);
                     }
                 }
                 .post-item-description {
-                    top: 50%;
                     left: 0;
                     padding: 0 30px 30px;
                     position: absolute;
                     width: 100%;
-                    @include breakpoint($break-tablet) {}
-                    h2 {
-                        font-size: 1.8rem;
-                        font-weight: 800;
-                        margin-bottom: 0;
-                        letter-spacing: -0.5px;
-                    }
-                    p {
-                        color: #d0d0d0;
-                        line-height: 1.4;
-                    }
-                    a {
-                        color: #fff;
-                        padding-bottom: 4px;
-                        &:hover {
-                            color: #D90000;
+                    @include breakpoint($break-tablet) {
+                        h2 {
+                            font-size: 1.8rem;
+                            font-weight: 900;
+                            margin-bottom: 0;
+                            letter-spacing: -0.5px;
+                        }
+                        p {
+                            color: #616161;
+                            line-height: 1.4;
+                            font-size: 1rem;
+                        }
+                        a {
+                            color: #111;
+                            padding-bottom: 4px;
+                            &:hover {
+                                color: #D90000;
+                            }
                         }
                     }
                 }
@@ -629,7 +703,6 @@
                     transition: all 1s cubic-bezier(.09, .6, .73, .65);
                     &:hover {
                         opacity: .5;
-                        transform: scale(1.05);
                     }
                 }
             }
@@ -888,7 +961,7 @@
         font-family: 'Lato', sans-serif;
         font-size: 16px;
         font-weight: 400;
-        line-height: 1;
+        line-height: 1.2;
         text-rendering: optimizeLegibility;
     }
     

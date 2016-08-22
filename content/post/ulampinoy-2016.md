@@ -1,6 +1,7 @@
 +++
 excerpt = "Mabuhay, masarap at kami'y nagbabalik"
 date = "2016-08-09T20:59:00+01:00"
+tag = "Mainit-init Pa"
 title = "Ang Bagong Ulampinoy"
 photo = "/assets/photos/bagoong-salad.jpg"
 +++
