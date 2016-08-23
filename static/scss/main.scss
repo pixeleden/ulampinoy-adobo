@@ -251,6 +251,9 @@
                         @include gallery(4 of 12);
                         padding: 0 1.5%;
                     }
+                     .post-item-description {
+                        padding: 0 30px;
+                     }
                 }
             }
         }
@@ -647,7 +650,13 @@
                 .post-item-image {
                     line-height: .8;
                     overflow: hidden;
-                    background-color: #111;
+                    margin-top: 18px;
+                    height: 290px;
+                    @include breakpoint($break-desktop) {
+                        background-color: #111;
+                    }
+                    
+                    
                     img {
                         transition: all 16s cubic-bezier(.2, .4, .6, .8);
                         transform: translateY(-45px);
