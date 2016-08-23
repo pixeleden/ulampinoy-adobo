@@ -252,7 +252,7 @@
                         padding: 0 1.5%;
                     }
                      .post-item-description {
-                        padding: 0 30px;
+                        padding: 0 30px 30px;
                      }
                 }
             }
@@ -651,9 +651,10 @@
                     line-height: .8;
                     overflow: hidden;
                     margin-top: 18px;
-                    height: 290px;
+                    height: 250px;
                     @include breakpoint($break-desktop) {
                         background-color: #111;
+                        height: 380px;
                     }
                     
                     
