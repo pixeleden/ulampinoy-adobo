@@ -950,9 +950,9 @@
                 @include breakpoint($break-desktop) {
                     padding: 15px 10px 15px 0;
                     font-size: 1.8rem;
-                    font-weight: 300;
+                    font-weight: 500;
                     border: 0;
-                    color: #E8F8FF;
+                    color: #313131;
                     margin-bottom: 0;
                     @include span(9);
                 }
