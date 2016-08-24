@@ -218,6 +218,10 @@
                                 line-height: 1.6;
                                 font-size: 1rem;
                             }
+
+                             @include breakpoint($break-desktop) {
+                                padding-top: 30px;
+                             }
                         }
                     }
                 }
@@ -253,6 +257,10 @@
                     }
                      .post-item-description {
                         padding: 0 30px 30px;
+
+                        @include breakpoint($break-desktop) {
+                            padding: 0;
+                        }
                      }
                 }
             }
@@ -671,6 +679,7 @@
                     padding: 0 30px 30px;
                     position: absolute;
                     width: 100%;
+                    
                     @include breakpoint($break-tablet) {
                         h2 {
                             font-size: 1.8rem;
@@ -690,6 +699,9 @@
                                 color: #D90000;
                             }
                         }
+                    }
+                    @include breakpoint($break-desktop) {
+                        
                     }
                 }
             }
