@@ -9,6 +9,7 @@ title = "Ulampinoy"
 	archive = "archives"
 	post = "posts"
 	video = "videos"
+	about = "about"
 
 [params.hero]
 	title = "Lutong bahay na punô ng pagmamahal, kulay at sarap"
