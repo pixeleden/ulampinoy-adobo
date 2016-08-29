@@ -6,7 +6,7 @@ title = "Kesong Kambing, Talong Pickle at Alamang"
 photo = "/assets/photos/queso-cabra--pickeled-olives-eggplants.jpg"
 +++
 
-Excited kaming i-launch ngayon ang kauna-unahang edisyon ng weekend tsibog adventures.
+Excited kaming i-launch ngayon ang kauna-unahang edisyon ng *Weekend Bits.* Sari-sari at random na weekend adventure.
 
 Nitong nakaraang Linggo sa aming lingguhang pamimili ng supply para sa darating na linggo, kami'y dumaan sa [Carrefour](http://www.carrefour.es/supermercado/?ic_source=portal&ic_medium=rollovers&ic_content=SupermercadoEntrar) at may naghihintay na sorpresa. 
 
