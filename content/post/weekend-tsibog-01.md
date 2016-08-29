@@ -1,7 +1,7 @@
 +++
 date = "2016-08-21T22:59:33+02:00"
 excerpt = "Unang edisyon ng weekend tsibog adventures"
-tag = "Weekend Tsibog"
+tag = "Tsibog sa Weekend"
 title = "Kesong Kambing, Talong Pickle at Alamang"
 photo = "/assets/photos/queso-cabra--pickeled-olives-eggplants.jpg"
 +++
