@@ -1,6 +1,6 @@
 +++
 date = "2016-08-29T21:08:36+02:00"
-excerpt = "Ang weekend ay laging espesyal kasama ng mga barkada. Pahinga sa rutin, biruan, tawanan... "
+excerpt = "Espesyal lagi ang weekend kasama ng barkada. Pahinga sa rutin, biruan, tawanan... "
 photo = "/assets/photos/turon-tray.jpg"
 tag = "Tsibog sa Weekend"
 title = "Turon, Kutsinta, atbp."

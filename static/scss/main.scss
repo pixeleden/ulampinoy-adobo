@@ -26,7 +26,7 @@
     }
     
     .inner {
-        @include container(1024px);
+        @include container(1200px);
     }
     
     .inner-wrapper {
@@ -35,7 +35,7 @@
             padding: 0 1em;
         }
         @include breakpoint($break-desktop) {
-            @include container(1024px);
+            @include container(1200px);
         }
     }
     
@@ -43,7 +43,7 @@
         text-decoration: none;
         &:link,
         &:visited {
-            color: #111;
+            color: #000;
             -webkit-transition: color .4s ease;
             -moz-transition: color .4s ease;
             -o-transition: color .4s ease;
@@ -129,9 +129,6 @@
                 background-color: #101010;
                 padding: 20px 0;
                 top: 0;
-                @include breakpoint($break-tablet) {
-                    position: fixed;
-                }
             }
             .post {
                 .hero-title {
@@ -167,7 +164,6 @@
         &.blog {
             nav {
                 @include breakpoint($break-desktop) {
-                    position: fixed;
                     background-color: #101010;
                     padding: 20px 0;
                     top: 0;
@@ -237,19 +233,20 @@
             }
             .post-item-description {
                 h2 {
-                    margin: 10px 0;
+                    margin: 10px 0 0;
                 }
                 .tag-tease {
                     text-transform: uppercase;
                     font-size: .72rem;
                     font-weight: 700;
                     letter-spacing: 1px;
-                    color: #717171;
+                    color: #919191;
                 }
                 .excerpt {
                     p {
                         font-size: 1rem;
                         color: #515151;
+                        line-height: 1.4;
                     }
                     
                 }
@@ -274,7 +271,6 @@
         }
         &.archive {
             nav {
-                position: fixed;
                 background-color: #101010;
                 padding: 20px 0;
                 top: 0;
@@ -395,25 +391,7 @@
         }
         .article-body {
             margin-top: 40px;
-            &::after {
-                content: "toys";
-                display: inline-block;
-                font-family: 'Material Icons';
-                font-style: normal;
-                font-weight: inherit;
-                font-size: 1.4rem;
-                line-height: 1;
-                position: relative;
-                top: 7px;
-                left: 40px;
-                z-index: 1;
-                opacity: 0.3;
-                margin-top: 40px;
-                @include breakpoint($break-desktop) {
-                    margin-left: 130px;
-                    left: 0;
-                }
-            }
+
             a {
                 font-weight: 600;
                 &:hover {
@@ -424,16 +402,18 @@
             p {
                 margin: 20px 40px 0;
                 @include breakpoint($break-desktop) {
-                    margin: 10px 120px 20px;
+                    margin: 0 auto 1.6em;
+                    width: 730px;
                 }
             }
             h2 {
                 font-size: 1.8rem;
-                font-weight: 700;
+                font-weight: 500;
                 margin: 40px 40px 0;
-                color: #313131;
+                color: #404040;
                 @include breakpoint($break-desktop) {
-                    margin: 40px 120px 0;
+                    margin: 2em auto .4em;
+                    width: 730px;
                 }
             }
             h3 {
