@@ -4,7 +4,6 @@ excerpt = "Ang weekend ay laging espesyal kasama ng mga barkada. Pahinga sa ruti
 photo = "/assets/photos/turon-tray.jpg"
 tag = "Tsibog sa Weekend"
 title = "Turon, Kutsinta, atbp."
-
 +++
 
 Piknik sa parke kasama ng mga kaibigan. Kahit biglaan lang, napakarami pa ring pagkain! Eh di ma-imagine mo na kung may patiunang abiso at preparasyon pa. 
