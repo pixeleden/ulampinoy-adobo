@@ -211,6 +211,9 @@
                             top: 0;
                             a {
                                 color: #111;
+                                &:hover {
+                                     color: #00A1F1;
+                                }
                             }
                             h2 {
                                 font-size: 2rem;
@@ -258,12 +261,6 @@
                         @include gallery(4 of 12);
                         padding: 1%;
                         box-shadow: 0 0 2px rgba(0,0,0,0);
-
-                        &:hover {
-                             transition: all 0.4s cubic-bezier(.2, .4, .6, .8);
-                             box-shadow: 0 5px 20px rgba(0,0,0,.2);
-                             border-radius: 5px;
-                        }
                     }
                      .post-item-description {
                         padding: 0 30px 30px;
@@ -351,6 +348,10 @@
                 position: absolute;
                 display: block;
                 width: 100%;
+            }
+
+            @include breakpoint($break-tablet) {
+                margin-top: -400px;
             }
             .meta {
                 margin-top: 10px;
@@ -595,7 +596,7 @@
         background-position: 50%;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 600px;
+        height: 440px;
         z-index: -1;
         .hero-title {
             position: relative;
@@ -605,9 +606,10 @@
                 top: 44vh;
             }
             @include breakpoint($break-desktop) {
-                top: 45vh;
+                top: 35vh;
             }
             h1 {
+                 font-family: 'Kalam', cursive;
                 margin: 0 auto;
                 padding: 0 40px;
                 color: #fff;
@@ -705,9 +707,6 @@
                         a {
                             color: #111;
                             padding-bottom: 4px;
-                            &:hover {
-                                color: #D90000;
-                            }
                         }
                     }
                     @include breakpoint($break-desktop) {
