@@ -8,7 +8,7 @@ photo = "/assets/photos/soy-fried-rice.jpg"
 
 Long-si-log (**long**ganisa, **si**nangag at it**log**). Tap-si syempre ang hari ng lahat ng mga si-log. Talagang mabigat ang agahang Pinoy. Kape ang katapat na inumin.
 
-May dalawang kampo ang almusal: Tinapay o kanin. Kung tinapay naman ay pandesal ang hanap mo sa umaga. Pero kung ang kategorya mo ay kanin, ito ang tipo mong almusal. Kaya naman laging marami kang tirang kanin kagabi para may sinangag ka sa kinaumagahan. Isang trick na magpapasarap sa sinangag ay **paglalagay sa ref ang tirang kanin** kaya talagang kaning lamig na malamig!
+May dalawang kampo ang almusal: Tinapay o kanin. Kung tinapay ang pili mo, pandesal ang hanap mo sa umaga. Pero kung ang kategorya mo ay kanin, ito ang tipo mong almusal. Kaya naman laging marami kang tirang kanin kagabi para may sinangag ka sa kinaumagahan. Isang trick na magpapasarap sa sinangag ay **paglalagay sa ref ang tirang kanin** kaya talagang kaning lamig na malamig!
 
 {{< figure src="/assets/photos/fried-rice-soy-sauce.jpg" title="Fried rice na may toyo at green onions" >}}
 
