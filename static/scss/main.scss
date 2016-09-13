@@ -565,6 +565,62 @@
     section {
         @include clearfix;
     }
+
+    main {
+        @include clearfix;
+        @include span(12);
+        .newest {
+            @include span(8);
+            padding-right: gutter(2);
+            .section-headline {
+                text-align: left;
+            }
+            .newest-item {
+                margin-bottom: 4.8em;
+
+                .newest-item-description {
+                    margin-top: 1em;
+
+                    h3 {
+                        font-size: 1.8rem;
+                        margin: 8px 0 0;
+                    }
+                    p {
+                        font-size: 1.1rem;
+                    }
+                    .tag-tease {
+                        text-transform: uppercase;
+                        font-size: .72rem;
+                        font-weight: 700;
+                        letter-spacing: 1px;
+                        color: #919191;
+                    }
+                }
+            }
+        }
+        .spotlight {
+            padding-left: gutter(2);
+            @include span(4);
+            @include last;
+
+            .section-headline {
+                text-align: left;
+            }
+            .spotlight-item {
+                margin-bottom: 3em;
+                .spotlight-item-description {
+                    h3 {
+                        font-size: 1.2rem;
+                        margin-bottom: 0;
+                    }
+                    p {
+                        line-height: 1.8;
+                        font-size: .9rem;
+                    }
+                }
+            }
+        }
+    }
     
     .top {
         position: relative;
@@ -599,7 +655,7 @@
                 text-shadow: 0 1px 5px rgba(0, 0, 0, .5);
                 line-height: 1.4;
                 @include breakpoint($break-tablet) {
-                    font-size: 3rem;
+                    font-size: 2.7rem;
                     width: 640px;
                 }
                 @include breakpoint($break-desktop) {
@@ -701,9 +757,9 @@
         }
     }
     
-    .featured {
+    .latest {
         @include clearfix;
-        .featured-item {
+        .latest-item {
             position: relative;
             overflow: hidden;
             @include breakpoint($break-tablet) {
@@ -777,7 +833,7 @@
         color: #999;
         padding: 20px 0;
     }
-    
+
     // Video
     .video {
         .video-item {

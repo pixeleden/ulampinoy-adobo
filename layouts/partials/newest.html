@@ -1,12 +1,13 @@
-<section class="latest">
+<section class="newest">
 		<h2 class="section-headline"><span>Mainit at Bago</span></h2>
 			<ul>
-				{{ range first 3 (where .Data.Pages "Type" "post") }}
-				<li class="latest-item">
-					<div class="latest-item-image">
+				{{ range first 4 (where .Data.Pages "Type" "post") }}
+				<li class="newest-item">
+					<div class="newest-item-image">
 						<a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt=""></a>
 					</div>
-					<div class="latest-item-description">
+					<div class="newest-item-description">
+						<div class="tag-tease">{{ .Params.tag }}</div>
 						<h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
 						<div class="excerpt">
 							<p>{{ .Params.excerpt }}</p>

@@ -1,12 +1,12 @@
-<section class="latest">
-		<h2 class="section-headline"><span>Mainit at Bago</span></h2>
+<section class="feature">
+		<h2 class="section-headline"><span>Mga Tampok</span></h2>
 			<ul>
-				{{ range first 3 (where .Data.Pages "Type" "post") }}
-				<li class="latest-item">
-					<div class="latest-item-image">
+				{{ range last 3 (where .Data.Pages "Type" "post") }}
+				<li class="feature-item">
+					<div class="feature-item-image">
 						<a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt=""></a>
 					</div>
-					<div class="latest-item-description">
+					<div class="feature-item-description">
 						<h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
 						<div class="excerpt">
 							<p>{{ .Params.excerpt }}</p>
