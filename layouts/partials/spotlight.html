@@ -1,12 +1,12 @@
-<section class="latest">
-		<h2 class="section-headline"><span>Mainit at Bago</span></h2>
+<section class="spotlight">
+		<h2 class="section-headline"><span>Mula sa Archive</span></h2>
 			<ul>
-				{{ range first 3 (where .Data.Pages "Type" "post") }}
-				<li class="latest-item">
-					<div class="latest-item-image">
+				{{ range first 7 (where .Data.Pages "Type" "archive") }}
+				<li class="spotlight-item">
+					<div class="spotlight-item-image">
 						<a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt=""></a>
 					</div>
-					<div class="latest-item-description">
+					<div class="spotlight-item-description">
 						<h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
 						<div class="excerpt">
 							<p>{{ .Params.excerpt }}</p>

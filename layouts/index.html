@@ -7,9 +7,14 @@
 		{{ partial "nav.html" . }}
 		{{ partial "hero.html" .}}
 	</section>
-	{{ partial "latest.html" .}}
+	<main>
+		<div class="inner-wrapper">
+			{{ partial "newest.html" .}}
+		{{ partial "spotlight.html" .}}
+		</div>
+		
+	</main>
 	{{ partial "videos.html" .}}
-	{{ partial "archive.html" .}}
 	{{ partial "subscribe.html" .}}
 	{{ partial "footer.html" . }}
 </body>
