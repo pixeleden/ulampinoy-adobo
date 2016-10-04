@@ -2,34 +2,47 @@
 <html class="no-js" lang="en-US">
 {{ partial "head.html" . }}
 
-<body class="archive">
+<body class="post blog">
     {{ partial "nav.html" . }}
-    <section class="hero">
-        <div class="inner">
-            <div class="hero-title">
-                <h1>{{ .Title }}</h1>
-                <p class="sub-title">{{ .Params.excerpt }}</p>
-            </div>
-        </div>
-    </section>
-    <section class="featured">
-        <ul>
-            {{ range (where .Site.Pages "Type" "archive") }}
-            <li class="featured-item">
-                <div class="featured-item-image">
-                    <a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt=""></a>
-                </div>
-                <div class="featured-item-description">
-                    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-                    <div class="excerpt">
-                        <p>{{ .Params.excerpt }}</p>
+
+    <div class="inner">
+
+        <section class="post-main newest">
+                {{ range first 1 (where .Site.Pages "Type" "archive") }}
+                <div class="post-item">
+                    <div class="post-item-image">
+                        <a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt=""></a>
+                    </div>
+                    <div class="post-item-description">
+                        <div class="tag-tease">{{ .Params.tag }}</div>
+                        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                        <div class="excerpt">
+                            <p>{{ .Params.excerpt }}</p>
+                        </div>
                     </div>
                 </div>
-            </li>
-            {{ end }}
-        </ul>
-    </section>
+                {{ end }}
+        </section>
+
+        <section class="post-panel">
+                {{ range after 1 (where .Site.Pages "Type" "archive") }}
+                <div class="post-item">
+                    <div class="post-item-image">
+                        <a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt=""></a>
+                    </div>
+                    <div class="post-item-description">
+                        <div class="tag-tease">{{ .Params.tag }}</div>
+                        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                        <div class="excerpt">
+                            <p>{{ .Params.excerpt }}</p>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+        </section>
+
+        
+    </div>
     {{ partial "footer.html" . }}
 </body>
-
 </html>
