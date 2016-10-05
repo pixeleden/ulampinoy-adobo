@@ -571,18 +571,29 @@ main {
     @include clearfix;
     @include span(12);
     .newest {
+
         @include breakpoint($break-tablet) {
             @include span(8);
-            }
             padding-right: gutter(2);
+            }
+            
             .section-headline {
-                text-align: left;
+                text-align: center; 
+                @include breakpoint($break-tablet) {
+                    text-align: left;
+                }
             }
             .newest-item {
-                margin-bottom: 4.8em;
+                margin-bottom: 2.4em; 
+                @include breakpoint($break-tablet) {
+                    margin-bottom: 4.8em;
+                }
                 .newest-item-description {
                     margin-top: 1em;
-                    padding: 0;
+                    padding: 0 gutter(1);
+                     @include breakpoint($break-tablet) {
+                        padding: 0;
+                     }
                     h3 {
                         font-size: 1.8rem;
                         margin: 8px 0 0;
@@ -597,6 +608,7 @@ main {
                         letter-spacing: 1px;
                         color: #919191;
                     }
+
                 }
             
         }
@@ -608,21 +620,25 @@ main {
         @include breakpoint($break-tablet) {
             @include span(4);
             @include last;
-            .section-headline {
+        }
+
+        .section-headline { 
+            text-align: center;
+            @include breakpoint($break-tablet) {
                 text-align: left;
             }
-            .spotlight-item {
-                margin-bottom: 3em;
-                .spotlight-item-description {
-                    padding: 0;
-                    h3 {
-                        font-size: 1.2rem;
-                        margin-bottom: 0;
-                    }
-                    p {
-                        line-height: 1.8;
-                        font-size: .9rem;
-                    }
+        }
+        .spotlight-item {
+            margin-bottom: 3em;
+            .spotlight-item-description {
+                padding: 0 gutter(1);
+                h3 {
+                    font-size: 1.2rem;
+                    margin-bottom: 0;
+                }
+                p {
+                    line-height: 1.8;
+                    font-size: .9rem;
                 }
             }
         }
@@ -644,19 +660,17 @@ main {
     background-size: cover;
     height: 320px;
     @include breakpoint($break-desktop) {
-        height: 440px;
+        height: 400px;
     }
     
     z-index: -1;
+
     .hero-title {
         position: absolute;
-        top: 20vh;
-        transform: translateY(-50%);
-        @include breakpoint($break-tablet) {
-            top: 44vh;
-        }
+        top: 80px;
+
         @include breakpoint($break-desktop) {
-            top: 35vh;
+            top: 200px;
         }
         h1 {
             margin: 0 auto;
@@ -664,10 +678,11 @@ main {
             color: #fff;
             font-size: 1.8rem;
             text-align: center;
-            font-weight: 700;
+            font-weight: 600;
             text-shadow: 0 1px 5px rgba(0, 0, 0, .5);
             line-height: 1.4;
             @include breakpoint($break-tablet) {
+                font-size: 2rem;
             }
             @include breakpoint($break-desktop) {
                 padding: 0;
@@ -1042,7 +1057,7 @@ body {
     font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.2;
+    line-height: 1.4;
     text-rendering: optimizeLegibility;
 }
 
