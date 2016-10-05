@@ -60,7 +60,7 @@ a {
         -moz-transition: color .4s ease;
         -o-transition: color .4s ease;
         transition: color .4s ease;
-        font-weight: 900;
+        font-weight: 700;
     }
     &:hover {
         color: #D90000;
@@ -107,11 +107,7 @@ body {
         .video-item {
             overflow: hidden;
         }
-        background-color: #202020;
-        nav {
-            background-color: #101010;
-            padding: 20px 0;
-        }
+       
         article {
             .article-headline {
                 margin-top: 20px;
@@ -476,6 +472,8 @@ nav {
         text-align: center;
         @include breakpoint($break-tablet) {
             @include span(4);
+            text-align: left;
+            padding-left: 0;
         }
             
         padding-top: 10px;
@@ -506,7 +504,7 @@ nav {
             text-align: center; 
             @include breakpoint($break-tablet) {
                 text-align: right;
-                padding: 30px 0;
+                padding: 35px 0 30px;
             }
             
             
@@ -612,9 +610,7 @@ main {
                 }
             
         }
-        .newest-item-description {
-            padding: 0 gutter(1);
-        }
+
     }
     .spotlight {
         @include breakpoint($break-tablet) {
@@ -632,6 +628,9 @@ main {
             margin-bottom: 3em;
             .spotlight-item-description {
                 padding: 0 gutter(1);
+                @include breakpoint($break-tablet) {
+                    padding: 0;
+                }
                 h3 {
                     font-size: 1.2rem;
                     margin-bottom: 0;
@@ -644,6 +643,9 @@ main {
         }
         .spotlight-item-description {
             padding: 0 gutter(1);
+            @include breakpoint($break-tablet) {
+                padding: 0;
+            }
         }
     }
 }
@@ -668,6 +670,7 @@ main {
     .hero-title {
         position: absolute;
         top: 80px;
+        color: #fff;
 
         @include breakpoint($break-desktop) {
             top: 200px;
@@ -675,7 +678,6 @@ main {
         h1 {
             margin: 0 auto;
             padding: 0 40px;
-            color: #fff;
             font-size: 1.8rem;
             text-align: center;
             font-weight: 600;
@@ -688,6 +690,15 @@ main {
                 padding: 0;
             }
         }
+        p {
+            font-size: 1.2rem;
+        }
+        a {
+            color: #fff;
+            &:hover {
+                color: #D90000
+            }
+        }
     }
     @include clearfix;
 }
@@ -697,7 +708,6 @@ main {
     background-color: #fff;
     h1 {
         font-weight: 100;
-        letter-spacing: -2px;
         font-size: 2.7rem;
         line-height: 1;
         color: #414141;
@@ -707,7 +717,7 @@ main {
         text-align: center;
         @include span(12);
         @include clearfix;
-        margin: 100px auto 0;
+        margin: 40px auto 0;
         h1 {
             text-align: center;
         }
@@ -846,7 +856,7 @@ main {
 .section-headline {
     text-align: center;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: .3rem;
     font-size: 14px;
     line-height: 1.2;
