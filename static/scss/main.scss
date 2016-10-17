@@ -570,11 +570,10 @@ section {
 
 main {
     @include clearfix;
-    @include span(12);
     .newest {
 
         @include breakpoint($break-tablet) {
-            @include span(8);
+            @include span(8 of 12);
             padding-right: gutter(2);
             }
             
@@ -617,7 +616,7 @@ main {
     }
     .spotlight {
         @include breakpoint($break-tablet) {
-            @include span(4);
+            @include span(4 of 12);
             @include last;
         }
 
@@ -641,6 +640,7 @@ main {
                 p {
                     line-height: 1.8;
                     font-size: .9rem;
+                    margin: 5px 0;
                 }
             }
         }
