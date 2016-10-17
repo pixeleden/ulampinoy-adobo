@@ -54,7 +54,6 @@
 
 a {
     text-decoration: none;
-    cursor: auto;
     &:link,
     &:visited {
         color: #000;
@@ -872,8 +871,14 @@ main {
     padding: 20px 0;
 }
 
+// Ads
+.leader-ads {
+    @include clearfix;
+}
+
 // Video
 .video {
+    margin-top: 60px;
     .video-item {
         position: relative;
         padding-bottom: 44.25%;
@@ -891,6 +896,8 @@ main {
         width: 100% !important;
         height: auto;
     }
+
+    @include clearfix;
 }
 
 footer {
