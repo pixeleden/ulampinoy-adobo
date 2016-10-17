@@ -251,6 +251,9 @@ body {
                     @include breakpoint($break-tablet) {
                         padding: 0;
                     }
+                    p {
+                        margin-top: 5px;
+                    }
                 }
             }
         }
@@ -516,6 +519,13 @@ nav {
                 padding: 10px;
                 &.nav-link {
                     font-weight: 600;
+                    &#active {
+                        font-weight: 900;
+                        color: #111;
+                        &:hover {
+                            color: #D90000;
+                        }
+                    }
                 }
                 &:link,
                 &:visited {
@@ -878,7 +888,6 @@ main {
 
 // Video
 .video {
-    margin-top: 60px;
     .video-item {
         position: relative;
         padding-bottom: 44.25%;
