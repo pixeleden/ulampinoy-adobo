@@ -889,6 +889,12 @@ main {
 .leader-ads {
     @include clearfix;
 }
+.gad {
+    padding: 0 5%;
+    @include breakpoint($break-tablet) {
+        padding: 0;
+    }
+}   
 
 // Video
 .video {
