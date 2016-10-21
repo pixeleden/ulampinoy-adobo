@@ -1,6 +1,6 @@
 +++
 date = "2016-09-11T22:53:33+02:00"
-excerpt = "Longsilog ala español. Chistorra ang kapalit ng langgonisa"
+excerpt = "Longsilog ala español. Chistorra ang kapalit ng longanisa"
 tag = "Almusal ng mga Kampeon"
 title = "Chistorra, Sinangag at Sunny Side Up Eggs"
 photo = "/assets/photos/soy-fried-rice.jpg"
