@@ -5,27 +5,21 @@
 <body>
 	<section class="top">
 		{{ partial "nav.html" . }}
-		{{ partial "hero.html" .}}
+		{{ partial "hero.html" . }}
 	</section>
 	<section>
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- BigBanner -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:970px;height:250px"
-     data-ad-client="ca-pub-9964697758880128"
-     data-ad-slot="6407973759"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+	<div class="inner-wrapper">
+		{{ partial "top-big-ads.html" . }}
+	</div>
 	</section>
 	<main>
 		<div class="inner-wrapper">
-			{{ partial "newest.html" .}}
-			{{ partial "spotlight.html" .}}
+			{{ partial "newest.html" . }}
+			{{ partial "spotlight.html" . }}
 		</div>
 	</main>
-	{{ partial "videos.html" .}}
-	{{ partial "subscribe.html" .}}
+	{{ partial "videos.html" . }}
+	{{ partial "subscribe.html" . }}
 
 	{{ partial "ads-bottom-respo.html" . }}
 	{{ partial "footer.html" . }}
