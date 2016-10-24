@@ -5,7 +5,7 @@
 <body class="post blog">
     <nav role="full-horizontal" class="nav">
         <div class="inner-wrapper">
-            <div class="logo"><a href="#" class="active">{{ .Site.Title }}</a></div>
+            <div class="logo"><a href="/" class="active">{{ .Site.Title }}</a></div>
             <ul>
                 <li class="nav-item"><a href="blog" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="archive" class="nav-link">Archive</a></li>
@@ -31,6 +31,12 @@
                     </div>
                 </div>
                 {{ end }}
+        </section>
+
+        <section class="top-ads">
+        <div class="inner-wrapper">
+            {{ partial "top-big-ads.html" . }}
+        </div>
         </section>
 
         <section class="post-panel">

@@ -892,6 +892,7 @@ main {
 .top-ads {
     margin: 20px auto;
     text-align: center;
+    @include clearfix;
 }
 .leader-ads {
     @include clearfix;
