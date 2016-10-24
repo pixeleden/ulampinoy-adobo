@@ -880,8 +880,8 @@ main {
     text-align: center;
     text-transform: uppercase;
     font-weight: 800;
-    letter-spacing: .3rem;
-    font-size: 14px;
+    letter-spacing: .1rem;
+    font-size: 18px;
     line-height: 1.2;
     color: #D90000;
     padding: 20px 0;
@@ -891,6 +891,7 @@ main {
 
 .top-ads {
     margin: 20px auto;
+    text-align: center;
 }
 .leader-ads {
     @include clearfix;
