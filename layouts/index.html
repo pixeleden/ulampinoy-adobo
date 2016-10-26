@@ -21,7 +21,11 @@
 	{{ partial "videos.html" . }}
 	{{ partial "subscribe.html" . }}
 
-	{{ partial "ads-bottom-respo.html" . }}
+	<section class="top-ads">
+		<div class="inner-wrapper">
+			{{ partial "top-big-ads.html" . }}
+		</div>
+	</section>
 	{{ partial "footer.html" . }}
 </body>
 

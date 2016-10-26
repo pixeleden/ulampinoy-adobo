@@ -1,5 +1,4 @@
 baseurl = "http://ulampinoy.com/"
-languageCode = "en-us"
 title = "Ulampinoy"
 
 [taxonomies]
@@ -10,6 +9,7 @@ title = "Ulampinoy"
 	post = "posts"
 	video = "videos"
 	about = "about"
+	ebook = "ebook"
 
 [params.hero]
 	title = "Lutong bahay na punô ng pagmamahal, kulay at sarap"

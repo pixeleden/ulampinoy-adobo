@@ -34,7 +34,7 @@
         </section>
 
         <section class="post-panel">
-                {{ range after 1 (where .Site.Pages "Type" "archive") }}
+                {{ range after 2 (where .Site.Pages "Type" "archive") }}
                 <div class="post-item">
                     <div class="post-item-image">
                         <a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt=""></a>
