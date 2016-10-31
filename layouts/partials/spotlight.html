@@ -1,7 +1,7 @@
 <section class="spotlight">
-		<h2 class="section-headline"><span>Mula sa Archive</span></h2>
+		<h2 class="section-headline"><span>Anong Ulam?</span></h2>
 			<ul>
-				{{ range first 6 (where .Data.Pages "Type" "archive") }}
+				{{ range first 6 (where .Data.Pages "Type" "video") }}
 				<li class="spotlight-item">
 					<div class="spotlight-item-image">
 						<a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt=""></a>
