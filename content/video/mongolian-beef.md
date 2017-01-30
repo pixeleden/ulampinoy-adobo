@@ -1,7 +1,7 @@
 ---
 categories: video beef wok
-date: 2017-1-30
-excerpt: Napakasarap na ulam na
+date: 2017-01-30
+excerpt: Napakasarap at madaling lutuing beef stir-fry na saktong-sakto ulam.
 youtube: "jrF4z3fjphA"
 photo: /assets/photos/mongolian-beef.jpg
 title: Mongolian Beef
