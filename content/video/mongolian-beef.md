@@ -29,4 +29,4 @@ Napakasarap at madaling lutuing beef stir-fry na saktong-sakto ulam.
 * Green onion
 * Roasted sesame seeds
 
-Kain na! At huwag mag-atubilin mag-subscribe at paki-share ang ulam Pinoy. Salamat!
+Kain na! At huwag mag-atubilinf mag-subscribe at paki-share ang ulam Pinoy. Salamat!
