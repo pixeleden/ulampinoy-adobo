@@ -18,7 +18,6 @@ Napakasarap at madaling lutuing beef stir-fry na saktong-sakto ulam.
 * 1 tb. baking soda
 * 1 itlog
 * pamintang durog
-
 * 1 L cooking oil para sa pritong-lubog (deep-fry)
 
 ### SAUCE:
