@@ -692,7 +692,7 @@ main {
     background-size: cover;
     height: 320px;
     @include breakpoint($break-desktop) {
-        height: 400px;
+        height: 320px;
     }
     
     z-index: -1;
@@ -706,7 +706,7 @@ main {
 
         @include breakpoint($break-desktop) {
             margin: 0 120px;
-            top: 140px;
+            top: 100px;
         }
         h1 {
             
@@ -974,9 +974,10 @@ main {
 
 // Video
 .video {
+    margin-bottom: 40px;
     .video-item {
         position: relative;
-        padding-bottom: 44.25%;
+        padding-bottom: 60.25%;
         /* 16:9 */
         padding-top: 0;
         iframe {
@@ -1098,6 +1099,7 @@ footer {
 
 .subscribe {
     padding: 40px 0;
+    @include clearfix;
     form {
         fieldset {
             border: 0;

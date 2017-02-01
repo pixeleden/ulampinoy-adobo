@@ -1,7 +1,7 @@
 <section class="newest">
 		<h2 class="section-headline"><span>Bago lang</span></h2>
 			<ul>
-				{{ range first 4 (where .Data.Pages "Type" "post") }}
+				{{ range after 1 (where .Data.Pages "Type" "post") }}
 				<li class="newest-item">
 					<div class="newest-item-image">
 						<a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt=""></a>
