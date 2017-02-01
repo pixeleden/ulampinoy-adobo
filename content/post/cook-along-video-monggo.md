@@ -5,7 +5,7 @@ photo = "/assets/photos/puerta-de-alcala-tempranillo-syrah.jpg"
 title = "Paksiw na Bangus, Ginisang Upo at Vino de Madrid"
 tag = "Tsibog sa Weekend"
 url = "/post/weekend-bits-03-paksiw-na-bangus-ginisang-upo-vino-madrid"
-draft_ "true"
+draft = "true"
 +++
 
 Madalang lang makatagpo at limitado ang bangus dito sa Europa, kaya naman kung makabili kami, imbes na basta i-prito lang, niluluto namin ito na mas tradisyonal hangga't maari gaya ng paksiw.
